@@ -3,7 +3,7 @@
 할 일 목록 대신 **지금 할 일 딱 하나**만 보여 주는 안드로이드 앱입니다.
 내가 정한 가치 순위(건강 · 가족 · 일 …), 지금 시간대, 내 상태, 일정, 날씨를 보고 하나를 골라 주고, 완료하면 바로 다음 걸 추천합니다.
 
-![화면 미리보기](docs/preview.png)
+![화면 미리보기](preview.png)
 
 ## 다운로드
 
@@ -42,8 +42,8 @@
 
 ## 소스
 
-앱 화면 전체가 [`source/index.html`](source/index.html) 한 파일입니다. 안드로이드 쪽은 이 파일을 WebView로 띄우고 알림만 담당합니다.
-글꼴 Priority Sans는 [Pretendard](https://github.com/orioncactus/pretendard)를 한글 2,350자로 줄인 것이며 SIL Open Font License 1.1을 따릅니다([`source/fonts/OFL.txt`](source/fonts/OFL.txt)).
+앱 화면 전체가 [`index.html`](index.html) 한 파일입니다. 안드로이드 쪽은 이 파일을 WebView로 띄우고 알림만 담당합니다. APK 안에서는 글꼴 파일이 `fonts/` 폴더에 들어 있습니다.
+글꼴 Priority Sans는 [Pretendard](https://github.com/orioncactus/pretendard)를 한글 2,350자로 줄인 것이며 SIL Open Font License 1.1을 따릅니다([`OFL.txt`](OFL.txt), 글꼴 파일 [`priority-sans.woff2`](priority-sans.woff2)).
 
 ## 바뀐 점
 
